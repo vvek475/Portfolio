@@ -109,6 +109,10 @@ body{
 }
 
 .list_items{
+    position: fixed;
+    top: -18px;
+    left: 50%;
+    transform: translate(-50%,0%);
     display: flex;
 }
 .navbar li{
@@ -134,10 +138,15 @@ body{
     font-weight: medium;
     letter-spacing: 15px;
 }
+.top .name{
+    position: fixed;
+    left: 10px;
+    top: 0px;
+}
 .dropbtn {
     z-index: 30;
     position: fixed;
-    top:0px;
+    top:-13px;
     right: 5px;
     display: none;
     color: white;
@@ -166,7 +175,7 @@ body{
     padding: 20px 0px;
     border-bottom: 2px solid white;
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     font-family:  'Fahkwang', sans-serif;
 }
@@ -264,6 +273,9 @@ i{
 
     .name{
         font-size: 15px;
+    }
+    .top .name{
+        top: 16px;
     }
 }
 @media(max-width:1200px){

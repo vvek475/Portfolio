@@ -40,6 +40,9 @@
     .bigicon{
         font-size: 42px;
     }
+    .skillContainer{
+        width: 100%;
+    }
     .rest p{
         font-size: 30px;
     }
