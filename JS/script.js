@@ -37,3 +37,7 @@ console.log(overlay,dropbtn)
 dropbtn.addEventListener('click',function(e){
     overlay.classList.toggle('navbar-slider');
 })
+var preloader=document.getElementById('preloader')
+window/addEventListener("load",function(e){
+    preloader.style.display="none"
+})
