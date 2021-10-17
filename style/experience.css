@@ -1,50 +1,59 @@
-.experienceContainer{
+.experience{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+.experience_box{
+    padding: 0px 50px;
     width: 100%;
-    height: 400px;
-    background-color: var(--var-theme);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to right,var(--var-theme),black);
-
+    text-decoration: none;
+    height: 120px;
+    border-top:2px solid black ;
 }
-
-
-.experienceBox li:hover{
-    color: white;
-}
-.experienceBox li p{
-    padding:  20px 0px;
-    font-size: medium;
-    text-align: center;
-}
-.experienceBox li{
-    font-family:'Fahkwang', sans-serif;
-    cursor: pointer;
-    margin-bottom: 10px;
-    font-size: 32px;
-    font-weight:bolder!important;
-
-}
-.experienceList li:hover span{
-    display: block;
-    margin-left: -50px;
-}
-.experienceBox li span{
-    text-align: justify;
+.experience_box span{
+    padding-top: 10px;
     position: absolute;
-    display: none;
-    background-color: black;
-    color: var(--var-theme);
-    font-size: 18px;
-    width: 300px;
-    border-radius: 4px;
-    padding: 15px;
-    overflow: auto;
+    z-index: 100;
+    color: black;
+    font-size: 30px;
 }
-
-@media (max-width:675px){
-    .experienceBox li{
-        font-size: 16px;
+small{
+    position: absolute;
+    color: black;
+    padding-top: 30px;
+}
+.experience_box div{
+    position: absolute;
+    width: 0px;
+    height: 120px;
+    right: 0px;
+    background-color: black;
+    transition: 1s;
+}
+.experience_box:hover div{
+    width: 100%;
+}
+.experience_box a:hover {
+    text-decoration:none
+}
+.experience_box a{
+    color: black;
+    position: absolute;
+    right: 10%;
+}
+.experience_box i{
+    font-size: 30px;
+    color: black;
+}
+@media (max-width:576px){
+    .experience_box span,.experience_box i{
+        font-size: 15px;
     }
+    
+}
+.experience_box:hover span,
+.experience_box:hover small,
+.experience_box:hover i{
+    transition: 3s;
+    color: white;
 }
