@@ -1,12 +1,12 @@
 .contactwelcome{
     width: 100%;
     height: 100vh;
-
     backdrop-filter: blur(2px);
 }
 .welcome{
     position: absolute;
     padding: 50px 20px;
+    width: 300px;
     font-size: 30px;
     font-family:  'Fahkwang', sans-serif;
     color: var(--var-theme);

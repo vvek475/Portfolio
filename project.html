@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/project.css">
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+        .projectcards{
+            width: 400px;
+            height:550px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            border-radius: 20px;
+        }
+        .swiper{
+            width:80%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bakeology{
+            background:url('/images/photo-1512223792601-592a9809eed4.jfif');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .scribd{
+            background: url('/images/6714.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .letterboxd{
+            background: url('/images/cinema.jfif');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .avengers{
+            background: url('/images/avengers.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .reddit{
+            background: url('/images/question.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        @media(max-width:576px){
+            .projectcards{
+                width: 280px;
+                height: 420px;
+            }
+            .swiper{
+                padding-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="projectContainer">  
+        <p class="projectcontainer__text">
+            I only know what I've implemented practically. Nothing more-nothing less. But i can feel them, sense them, feel their flow
+            so i can learn anything related to Web Technologies.
+            <br><br>
+            Nothing can beat the feel of succeeding by implementing our knowledge as code That were I fell for this.
+            <br><br>
+            Ranked my projects in order of my path as a full-stack developer from toddler to a amatuer.   
+        </p>
+            <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="flip-card effect-on-hover" style="height: 650px;width: 400px;">
+            <div class="front">
+                <div class="projectcards bakeology"></div>
+            </div>
+            <div class="back">
+                <div class="projectcards bakeology"></div>
+            </div>
+        </div></div>
+        <div class="swiper-slide">
+            <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                <div class="front">
+                    <div class="projectcards scribd"></div>
+                </div>
+                <div class="back">
+                    <div class="projectcards"></div>
+                </div>
+            </div></div>
+            <div class="swiper-slide">
+                <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                    <div class="front">
+                        <div class="projectcards letterboxd"></div>
+                    </div>
+                    <div class="back">
+                        <div class="projectcards"></div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide">
+                    <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                        <div class="front">
+                            <div class="projectcards avengers"></div>
+                        </div>
+                        <div class="back">
+                            <div class="projectcards"></div>
+                        </div>
+                    </div></div>
+                    <div class="swiper-slide">
+                        <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                            <div class="front">
+                                <div class="projectcards reddit"></div>
+                            </div>
+                            <div class="back">
+                                <div class="projectcards"></div>
+                            </div>
+                        </div></div>
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+     
+                                
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          autoplay: {
+          delay: 6500,
+          disableOnInteraction: false,
+        },
+        keyboard: {
+          enabled: true,
+        },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+            },
+          },
+        });
+      </script>
+      <script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+</body>
+</html>
