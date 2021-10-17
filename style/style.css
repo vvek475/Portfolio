@@ -175,7 +175,7 @@ body{
 
     overflow: auto;
     height: 100vh;
-    background: url("/images/sunset.jpg");
+    background: url("/images/sunset.jpg") center;
     background-size: cover;
     background-repeat: no-repeat;
 }
