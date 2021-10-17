@@ -52,7 +52,7 @@
 .nextmenu div{
     backdrop-filter: blur(20px);
     background-color: rgb(255,255,255,0.2);
-    border: 1px solid rgb(255,255,255,0.1);
+    border: 1px solid rgb(255,255,255,0.2);
     height: 500px;
     justify-content: center;
     align-items: center;
@@ -61,6 +61,15 @@
 @media(max-width:1200px){
     .menu p{
         display: none;
+    }
+    .menu ul{
+        padding: 0px;
+    }
+    .menu{
+        min-width: 30%;
+    }
+    .nextmenu div{
+        min-width: 100%;
     }
     .menu i{
         display: block;

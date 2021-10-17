@@ -10,13 +10,27 @@
     justify-content:center;
 }
 .heroText{
-    display: flex;  
+    margin-bottom: 00px;
+    padding-bottom: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    text-align: center;
+    display: flex;
     flex-direction: column;
+
+}
+.heroText p{
+    margin-bottom: 0px;
+    padding: 50px 0px;
 }
 .heroText span{
-    margin-top: -100px;
     letter-spacing: 30px;
+    backdrop-filter: blur(20px);
+    background-color: rgb(255,255,255,0.2);
 }
+
 .hero ul{
     position: absolute ;
     right: 20px;
@@ -47,8 +61,11 @@
         width: 250px;
     }
     .hero ul li i{
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .heroText p{
+        font-size: 25px;
     }
     .heroText span{
         font-size: 12px;
