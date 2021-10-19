@@ -82,7 +82,7 @@ if (currHour >= 9 && currHour <= 16) {
 } 
 // night
 else if (currHour > 16 && currHour < 24) {
-    document.body.remove('light')
+    document.body.classList.remove('light')
     bg.classList.toggle('bg_theme')
 }
 
