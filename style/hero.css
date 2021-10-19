@@ -22,10 +22,14 @@
 
 }
 .heroText p{
+    /* -webkit-box-reflect: below -110px linear-gradient(transparent,white); */
+
+    /* text-shadow: 1px 1px 1px black; -webkit-text-fill-color: transparent; -webkit-text-stroke:1px white; */
     margin-bottom: 0px;
     padding: 50px 0px;
 }
 .heroText span{
+    margin-top: 100px;
     letter-spacing: 30px;
     backdrop-filter: blur(20px);
     background-color: rgb(255,255,255,0.2);

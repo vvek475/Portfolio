@@ -21,16 +21,19 @@
     margin-bottom: 50px;
 
 }
+.skillbox i{
+    color: black;
+}
 .skillbox{
     padding: 10px;
     background: white;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    color: red;
+    color: black;
 }
 .bigicon{
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid black;
     font-size:80px;
 }
 .rest p{

@@ -2,8 +2,6 @@ home=document.querySelectorAll('.link')
 homelink=document.querySelectorAll('.linkto')
 home1=[...home]
 home2=[...homelink]
-console.log(home1,home2[0])
-console.log(home2[0])
 homesel=document.getElementById('home')
 home1[0].addEventListener('click',function(e){
     calc()
@@ -41,3 +39,68 @@ var preloader=document.getElementById('preloader')
 window/addEventListener("load",function(e){
     preloader.style.display="none"
 })
+var projDisp=document.querySelectorAll(".proj-disp")
+var prj_disp=document.querySelectorAll(".prj-disp")
+var closer=document.querySelector("#closer")
+var projectdisplay=[...projDisp]
+var projectHide=[...prj_disp]
+projectdisplay[0].addEventListener('click',function(e){
+    projectHide[0].classList.toggle('active');
+    closer.style.display="block"
+})
+projectdisplay[1].addEventListener('click',function(e){
+    projectHide[1].classList.toggle('active');
+    closer.style.display="block"
+})
+projectdisplay[2].addEventListener('click',function(e){
+    projectHide[2].classList.toggle('active');
+    closer.style.display="block"
+})
+projectdisplay[3].addEventListener('click',function(e){
+    projectHide[3].classList.toggle('active');
+    closer.style.display="block"
+})
+projectdisplay[4].addEventListener('click',function(e){
+    projectHide[4].classList.toggle('active');
+    closer.style.display="block"
+})
+closer.addEventListener('click',function(e){
+    projectHide.forEach(element => {
+        element.classList.remove('active');
+        
+    })
+    closer.style.display="none"
+
+})
+var d = new Date();
+var currHour = d.getHours();
+var bg=document.querySelector('.background')
+console.log(currHour)
+if (currHour >= 9 && currHour <= 16) {
+    document.body.classList.add('light')
+    bg.classList.remove('bg_theme')
+} 
+// night
+else if (currHour > 16 && currHour < 24) {
+    document.body.remove('light')
+    bg.classList.toggle('bg_theme')
+}
+
+/* $(document).ready(function(){
+    $(".textillate").textillate({
+        loop:true,
+        in:{
+            effect:'fadeInDownBig',
+            delayscale:3,
+            delay:20,
+        }
+    })
+}) */
+var theme=document.querySelector('#theme')
+
+theme.addEventListener('click',function(e){
+    console.log('theme')
+    document.body.classList.toggle('light')
+    bg.classList.toggle('bg_theme')
+})
+bg.style.backgroundSize='cover'

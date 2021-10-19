@@ -9,7 +9,7 @@
     text-align: justify;  
 }
 :root{
-    --var-theme:rgb(255, 0, 0);
+    --var-theme:rgb(255, 255, 255);
 }
 a:hover{
     text-decoration: none;
@@ -65,6 +65,23 @@ body{
     position: fixed;
     z-index: 100;
 
+}
+#theme{   
+    position: fixed;
+    font-size: 30px;
+    top:80px;
+    z-index: 10;
+    left: 30px;
+    background: white;
+    border-radius: 50px;
+}
+.light{
+    background : url('/images/sunset.jpg') no-repeat center;
+    background:linear-gradient(red,yellow,red)
+}
+#theme i{
+    color: black;
+    padding:10px;
 }
 #particles-js{
 	position: fixed;
@@ -182,6 +199,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.bg_theme{
+    background: url('/images/night.jpg') no-repeat center;
+}
 .background::-webkit-scrollbar{
     display: none;
 }
@@ -233,6 +253,20 @@ i{
 @media (max-width:695px){
     .text-med{
         font-size: 10px;
+    }
+    #theme i{
+        font-size: 20px;
+        padding: 0;
+        height: 20px;
+        width: 20px;
+    }
+    #theme{
+        left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
     }
     i{
         font-size: 18px;
