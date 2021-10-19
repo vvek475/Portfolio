@@ -10,7 +10,6 @@ body{
     align-items: center;
     height: 100vh;
     min-height: 100vh;
-    background:url('/images/Asset 6.png') /* linear-gradient(#2b1055,#7597de); */;
     background:linear-gradient(red,orange);/* navy,dodgerblue */
     background-repeat:no-repeat ;
     background-size: cover;
@@ -75,22 +74,17 @@ section img#lake{
     font-size: 1.4rem;
     color: #2b1055;
     z-index:10000;
-
 }
 #vivek{
     position: absolute;
     top: 250%;
     left: 50%;
     transform: translate(-50%,-50%);
-
     text-decoration: none;
     display: inline-block;
     padding: 8px 50px;
     background: #fff;
     border-radius: 40px;
     font-size: 1.4rem;
-    color: #2b1055;
     z-index:10000;
-    
-
 }
