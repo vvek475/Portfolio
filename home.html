@@ -27,43 +27,45 @@
     </span>
     <div class="navbar">    
       <ul class="list_items">
-        <a href="">PROFILE</a>
+        <a href="#profile">PROFILE</a>
+        <a href="#about"><li>ABOUT</li></a>
         <a href="#skill"><li>SKILL</li></a>
-        <a href="#projec_heading"><li>PROJECTS</li></a>
-        <a href="#exp"><li>EXPERIENCE</li></a>
-        <a href="#page_5_head"><li>CONTACT</li></a>
+        <a href="#experience"><li>EXPERIENCE</li></a>
+        <a href="#project"><li>PROJECTS</li></a>
+        <a href="#contact"><li>CONTACT</li></a>
       </ul>
       
     </div>
   </div>
   
-      <button class="dropbtn">&#9776;</button>
+      <button class="dropbtn">&#9776;
       <div class="overlay">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skill</li>
-          <li>Experience</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <a href="#profile"><li>PROFILE</li></a>
+        <a href="#about"><li>ABOUT</li></a>
+        <a href="#skill"><li>SKILL</li></a>
+        <a href="#experience"><li>EXPERIENCE</li></a>
+        <a href="#project"><li>PROJECTS</li></a>
+        <a href="#contact"><li>CONTACT</li></a>
         </ul>
       </div>
+    </button>
     <!-- hero -->
-    <div class="background">
+    <div id="profile" class="background">
     <div class="hero">
       <div class="heroText">
         <p class=" textillate title text-white  text-med ">FULL STACK<br>DEVELOPER</p>
         <span class="blur text-white">VIVEKANANDANS</span>
       </div>
       <ul class="togo">
-        <li><i class="fas fa-phone" ></i></li>
-        <li><i class="fab fa-linkedin" ></i></li>
-        <li><i class="fab fa-facebook-f" ></i></li>
-        <li><i class="fab fa-github" ></i></li>
-        <li><i class="fas fa-envelope" ></i></li>
+        <a href=""><li><i class="fas fa-phone" ></i></li></a>
+        <a href=""><li><i class="fab fa-linkedin" ></i></li></a>
+        <a href=""><li><i class="fab fa-facebook-f" ></i></li></a>
+        <a target="blank" href="https://github.com/vvek475"><li><i class="fab fa-github" ></i></li></a>
+        <a href=""><li><i class="fas fa-envelope" ></i></li></a>
       </ul>
     </div>
-    <div class="about">
+    <div id="about"class="about">
         <div class="aboutBox">
           <div class="menu">
             <ul class="show">
@@ -155,7 +157,7 @@
       </div>
     </div>
   </div>
-  <div class="title">EXPER<span>IENCE</span></div>
+  <div id="experience"class="title">EXPER<span>IENCE</span></div>
   <div class="experience">
     <div class="experience_box">
       <div>&nbsp;</div>
@@ -271,7 +273,6 @@
               <span  >Take to project</span>
           </div>
       </div>
-      <!-- <div id="closer">X</div> -->
       <div id="avengersstore"class="prj-disp">
           <div class="prj-description">
               <h2>Avengers Store</h2>
@@ -294,7 +295,7 @@
       </div>
       
       <div class="projectContainer">  
-          <p class="projectcontainer__text">
+          <p  id="project" class="projectcontainer__text">
               I only know what I've implemented practically. Nothing more-nothing less. But i can feel them, sense them, feel their flow
               so i can learn anything related to Web Technologies.
               <br><br>
@@ -386,7 +387,7 @@
     
     <div class="contactwelcome">
       <a href="">
-        <p class="welcome">GOT IDEAS<br>
+        <p  id="contact" class="welcome">GOT IDEAS<br>
         LET'S INTERACT</p>
       </a>
       <div class="contactform">
@@ -448,39 +449,7 @@
             </div>
             <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
             <script>
-              var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 1,
-                spaceBetween: 10,
-                autoplay: {
-                delay: 6500,
-                disableOnInteraction: false,
-              },
-              keyboard: {
-                enabled: true,
-              },
-                pagination: {
-                  el: ".swiper-pagination",
-                  clickable: true,
-                },
-                breakpoints: {
-                  640: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                  },
-                  768: {
-                    slidesPerView: 2,
-                    spaceBetween: 40,
-                  },
-                  1024: {
-                      slidesPerView: 2,
-                      spaceBetween: 50,
-                  },
-                  1200: {
-                      slidesPerView: 3,
-                      spaceBetween: 50,
-                  },
-                },
-              });
+             
             </script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery/3.5.1/jquery.min.js"></script>
 <script src="/JS/jquery.lettering.js"></script>

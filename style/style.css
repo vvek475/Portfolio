@@ -17,7 +17,6 @@ a:hover{
 div{
     font-family: sans-serif;
 }
-
 .blur{
     backdrop-filter: blur(20px);
     padding: 10px 0px 10px 22px;   
@@ -50,7 +49,7 @@ li:hover i{
     padding-right: 2rem;
 }
 body{
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     width: 100%;
     background-color: black;
     box-sizing: border-box;
@@ -160,7 +159,6 @@ body{
     display: none;
     color: white;
     font-size: 25px;
-    opacity: 60%;
     border: none;
     margin-top: 20px;
     background-color: transparent;
@@ -181,7 +179,7 @@ body{
 .navbar-slider{
     top:0px;
 }
-.overlay ul li{
+.overlay ul a li{
     padding: 20px 0px;
     border-bottom: 2px solid white;
     text-align: center;
@@ -189,7 +187,7 @@ body{
     color: white;
     font-family:  'Fahkwang', sans-serif;
 }
-.overlay ul li:last-child{
+.overlay ul a li:last-child{
     border-bottom: none;
 }
 .background{
