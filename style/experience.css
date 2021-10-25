@@ -5,10 +5,12 @@
 }
 .experience_box{
     padding: 0px 50px;
+    transition: 3s;
     width: 100%;
     text-decoration: none;
     height: 120px;
     border-top:2px solid black ;
+    overflow: hidden;
 }
 .experience_box span{
     padding-top: 10px;
@@ -49,11 +51,20 @@ small{
     .experience_box span,.experience_box i{
         font-size: 15px;
     }
-    
 }
 .experience_box:hover span,
 .experience_box:hover small,
 .experience_box:hover i{
     transition: 3s;
     color: white;
+}
+.experience_box:hover {
+    height: 320px;
+    overflow: auto;
+}
+.expDescription{
+    font-size: 15px !important;
+    margin-top: 140px;
+    width: 60%;
+    color: black!important;
 }
