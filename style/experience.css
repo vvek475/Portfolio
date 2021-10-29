@@ -1,9 +1,9 @@
 .experience{
     width: 80%;
     margin: auto;
-    background-color: white;
 }
 .experience_box{
+    background-color: white;
     padding: 0px 50px;
     transition: 3s;
     width: 100%;
