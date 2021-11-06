@@ -1,75 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/anime.css">
-    <title>welcome</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+<title>VIVEK Digital Resume</title>
+<link rel="stylesheet" href="style/project.css">
+<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+<link rel="stylesheet" href="style/hero.css">
+<link rel="stylesheet" href="style/about.css">
+<link rel="stylesheet" href="style/experience.css">
+<link rel="stylesheet" href="style/skill.css">
+<link rel="stylesheet" href="style/contact.css">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
-<body>
-    <section>
-        <img src="/images/Clouds.png" id='clouds' alt="">
-        <img src="/images/sun.png" id='sun' alt="">
-        <img src="/images/skyline.png" id='skyline' alt="">
-        <h2 id="text">Welcome<span></span></h2>
-        <a href="#" id="hello">Hello</a>
-        <a href="/home.html" id="vivek">Vivek</a>
-        <img src="/images/lake.png" id='lake' alt="">
-    </section>
-    <script src="/JS/anime.js"></script>
-    <script>
-        var animation = anime.timeline({
-            autoplay:false
+<body class="light">
+  <div id="preloader"></div>
+  <div id="particles-js"></div>
+	
+  <span id="theme"><i class="fas fa-moon"></i></span>
+  <div class="top">
+    <span class="name">
+      <span>VIVEKS</span> 
+    </span>
+    <div class="navbar">    
+      <ul class="list_items">
+        <a href="#profile">PROFILE</a>
+        <a href="#about"><li>ABOUT</li></a>
+        <a href="#skill"><li>SKILL</li></a>
+        <a href="#experience"><li>EXPERIENCE</li></a>
+        <a href="#project"><li>PROJECTS</li></a>
+        <a href="#contact"><li>CONTACT</li></a>
+      </ul>
+      
+    </div>
+  </div>
+  
+      <button class="dropbtn">&#9776;
+      <div class="overlay">
+        <ul>
+          <a href="#profile"><li>PROFILE</li></a>
+        <a href="#about"><li>ABOUT</li></a>
+        <a href="#skill"><li>SKILL</li></a>
+        <a href="#experience"><li>EXPERIENCE</li></a>
+        <a href="#project"><li>PROJECTS</li></a>
+        <a href="#contact"><li>CONTACT</li></a>
+        </ul>
+      </div>
+    </button>
+    <!-- hero -->
+    <div id="profile" class="background">
+    <div class="hero">
+      <div class="heroText">
+        <p class=" textillate title text-white  text-med " data-aos="zoom-in">FULL STACK<br>DEVELOPER</p>
+        <span class="blur text-white" >VIVEKANANDANS</span>
+      </div>
+      <ul class="togo">
+        <a href=""><li><i class="fas fa-phone" ></i></li></a>
+        <a href=""><li><i class="fab fa-linkedin" ></i></li></a>
+        <a href=""><li><i class="fab fa-facebook-f" ></i></li></a>
+        <a target="blank" href="https://github.com/vvek475"><li><i class="fab fa-github" ></i></li></a>
+        <a href=""><li><i class="fas fa-envelope" ></i></li></a>
+      </ul>
+    </div>
+    <div id="about"class="about">
+        <div class="aboutBox" >
+          <div class="menu" >
+            <ul class="show" >
+              <a class ="link name"><p>PROFILE</p> <i class="fas fa-user text-white"></i></a>
+              <a class="link name"> <p>ABOUT</p> <i class="fas fa-info-circle text-white"></i></a>
+              <a class="link name"> <p>QUOTES</p> <i class="fas fa-quote-right text-white"></i></a>
+              <a class="link name"> <p>EDUCATION</p> <i class="fas fa-graduation-cap text-white"></i></a>
+              <a class="link name"> <p>TALK</p> <i class="far fa-heart text-white"></i></a>
+            </ul>
+          </div>
+          <div class="nextmenu">
+            <div class="linkto" >
+               First Name : Vivekanandan<br><br>
+               Last Name  : S<br><br>
+               Age        : 21<br><br>
+               D.O.B      : 18/01/00<br><br>
+               Home Town  : Coimbatore 641 301 <br><br>
+               Work : Full-stack Developer <br><br>
+               
 
-        });
-        animation
-        .add({
-            targets:'#hello',
-            top:'1500px',
-            duration:500,
-            easing:	'easeInOutSine'
-        })
+              </div>
+            <div class="linkto">
+              Hi  I'm vivekanandan a mechanical engineer come full stack developer. A self-taught, guided, mentored programmer.
+              worked hard with sheer interest in web Technologies.<br><br> Looking for a work stations 
+              to work share learn interact with fellow programmers with similar interests and enthusiasm.
+            </div>
+            <div class="linkto">
+              "In war with yourself or peace with the world"<br>
+              "Or peace with yourself and war with the world" -Lebron James<br><br>
+              "Life is infertile at perfection" - Anonymous
+            </div>
+            <div class="linkto">
+              Fullstack-developer Trainee :<br> Skill-Edge, Pune<br><br>
+              Front-end Intern :<br> Pvh Technologies , Hyderabad<br><br>
+              College : <br>Govt College Of Technology , Coimbatore<br><br>
+              Schoolings :<br> SVGV Matriculation Higher secondary School.<br><br>
+            </div>
+            <div class="linkto">
+                Loves to talkabout : <br> <br>
+                      Historical fiction books<br>
+                      <br>
+                      Cloud technologies AWS<br><br>
+                      UI / UX Design <br><br>
+                      Devops<br><br>
+                      Cybersecurity          
+            </div>
+          </div>        
+      </div>
+    </div>
+  </div>
+  <div class="page_2">
+    <div class="skill">
+      <div class="skillContainer">
+       <p id="skill" class="title">SKILL<span>SET</span></p>
+        <div class="skillbox" data-aos="fade-left">
+          <i class="bigicon fab fa-python bigicon" style="width: 80%;"></i>80%
+          <span>Python</span>
+        </div>
+        <div class="skillbox" data-aos="fade-right">
+          <i class="fab fa-js-square bigicon" style="width: 70%;"></i>70%
+          <span>Javascript</span>
+        </div>
+        <div class="skillbox" data-aos="fade-left">
+          <i class="fab fa-react bigicon" style="width: 60%;"></i>60%
+          <span>React</span>
+        </div>
+        <div class="skillbox" data-aos="fade-right">
+          <i class="fab fa-github bigicon" style="width: 60%;"></i>60%
+          <span>Github</span>
+        </div>
+        <div class="skillbox" data-aos="fade-left">
+          <p style="width: 70%;border-bottom: 5px solid black;"><span class="iconify-inline"
+             data-icon="simple-icons:django"  data-width="100%" 
+          style="width: 15%;"></span></p>70%
+          <span>Django</span>
+        </div>
+        <div class="skillbox" data-aos="fade-right">
+          <i class="fab fa-css3-alt bigicon" style="width: 80%;"></i>80%
+          <span>CSS3</span>
+        </div>
+        <div class="skillbox" data-aos="fade-left">
+          <i class="fab fa-html5 bigicon" style="width: 80%;"></i>80%
+          <span>HTML5</span>
+        </div>
+        <div class="skillbox rest" data-aos="fade-right">
+          <p style="width: 70%;border-bottom: 5px solid black;">REST</p>70%
+            <span>Rest</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="experience"class="title">EXPER<span>IENCE</span></div>
+  <div class="experience" >
+    <div class="experience_box" data-aos="zoom-in">
+      <div>&nbsp;</div>
 
-        .add({
-            targets:"#lake",
-            bottom:'0px',
-            duration:1000,
-            easing:	'easeInOutSine'
-        })
-        .add({
-            targets:"#clouds",
-            top:'0px',
-            duration:1000,
-            easing:	'easeInOutSine'
-        })
-        .add({
-            targets:"#skyline",
-            bottom:'0px',
-            duration:1000,
-            easing:	'easeInOutSine'
-        })
-        .add({
-            targets:"#sun",
-            top:'0px',
-            duration:1000,
-            easing:	'easeInOutBack'
-        })
-        .add({
-            targets:"#text",
-            marginRight:'0px',
-            duration:1000,
-            easing:	'easeInOutBack'
-        })
-        .add({
-            targets:'#vivek',
-            top:'50%',
-            display:'block',
-            duration:1000,
-            easing:	'easeInOutBack'
-        })
+        <span>FULL STACK DEVELOPER</span> 
+        <br>
+        <small>4/2021-10/2021</small>
+        <span class="expDescription">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptates excepturi porro, mollitia molestiae similique quis nostrum corporis, vitae sunt repellat eaque error veniam incidunt ipsa eveniet obcaecati reprehenderit esse?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum commodi quae quaerat ducimus sapiente consequuntur quam amet incidunt saepe. Consequuntur, modi veritatis magnam error temporibus rerum nesciunt dolore beatae.
+        </span>
+      <a href=""><i class="fas fa-arrow-right" ></i></a>
+    </div>
+    <div class="experience_box" data-aos="zoom-in">
+      <div>&nbsp;</div>
+            <span>FRONT END INTERN</span> 
+            <br>
+            
+            <small>3/2021-4/2021</small>
+            <span class="expDescription">
+              <h3>Pvh Software Solutions</h3>
+              <br>1.Collaborated and assisted in front-end domain through 2 minor projects .
+              <br>2.Learned how the web flows, which accelerated my curiosity on web technologies on this 45 days journey.
+            </span>
+            <a href=""><i class="fas fa-arrow-right" ></i></a>
+      </div>
 
-        document.querySelector('#hello').onclick = animation.play;
-    </script>
+    <div class="experience_box" data-aos="zoom-in">
+      <div>&nbsp;</div>
+
+            <span>DESIGN  ENGINEER , BRAKES TEAM LEAD</span> 
+            <br>
+            
+            <small>4/2018-4/2021</small>
+            <span class="expDescription">
+              <h3>Team Screwtenizers</h3>
+                  <br>1.Spearheaded and assisted a team of 21 in designing, validating and analyzed real time testing of brakes for the all terrain vehicle.
+                  <br>2.Contributed to 2-3 times better results. Led, guided and trained a group of 4 juniors. 
+                  <br>3.Validated and designed a custom caliper with resourceful design and fabrication of rotor for the same with minimum material.
+                  <br>4.Obtained outcome calculated to be 40% lesser material without compromising performance . 
+                  <br>5.Achieved an important mark of getting ranked 17th among 100 + International Teams in SAE International.<br><br>
+            </span>
+            <a href=""><i class="fas fa-arrow-right" ></i></a>
+      </div>
+    <div class="experience_box" data-aos="zoom-in">
+      <div>&nbsp;</div>
+
+            <span>CHIEF GRAPHIC DESIGNER</span> 
+            <br>
+            
+            <small>3/2018-5/2021</small>
+            <span class="expDescription">
+              <h3>Student Journalist Council</h3>
+                <br>1.Managed and contributed 100% efforts for the growth of club along with team.
+                <br>2.Authored content writing & graphic designing for over a 20 posters and articles in the college newsletter APERTURE .
+                <br>3.Identified and rectified faults and missing puzzles, resulted in a  100% boosted result
+            </span>
+            <a href=""><i class="fas fa-arrow-right" ></i></a>
+      </div>
+    <div class="experience_box" data-aos="zoom-in">
+      <div>&nbsp;</div>
+
+            <span>HIP HOP DANCER</span> 
+            <br>
+            
+            <small>3/2018-10/2019</small>
+            <span class="expDescription">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, voluptates excepturi porro, mollitia molestiae similique quis nostrum corporis, vitae sunt repellat eaque error veniam incidunt ipsa eveniet obcaecati reprehenderit esse?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse illum commodi quae quaerat ducimus sapiente consequuntur quam amet incidunt saepe. Consequuntur, modi veritatis magnam error temporibus rerum nesciunt dolore beatae.
+            </span>
+            <a href=""><i class="fas fa-arrow-right" ></i></a>
+      </div>
+    </div>
+</div>
+      <div class="title">PRO<span>JECT</span>
+      </div>    
+      <a href="#projectcardbox" id="closer">X</a>
+      <div id="bakeology" class="prj-disp" >
+          <div class="prj-description" >
+              <h2>Bakeology</h2>
+              <p>
+                  Bakeology is a cake-baking website build using django.
+                  <br>
+                  This takes order and passes the order via email using Formspree.
+                  <br>
+                  (Formspree is a thirdparty mail sender)  
+                  <br>
+                  This also allows clients to post comments that will be vrified
+                  <br>
+                  by admin and will be added after verification.
+                  <br>
+                  <strong>In progress</strong> adding payment gateway that allows user<br>
+                  to make payment via online
+              </p>
+              <span  >Take to project</span>
+          </div>
+      </div>
+      <div id="scribd" class="prj-disp">
+  
+          <div  class="prj-description">
+              <h2>Scribd</h2>
+              <p>
+                  Bakeology is a cake-baking website build using django.
+                  <br>
+                  This takes order and passes the order via email using Formspree.
+                  <br>
+                  (Formspree is a thirdparty mail sender)  
+                  <br>
+                  This also allows clients to post comments that will be vrified
+                  <br>
+                  by admin and will be added after verification.
+                  <br>
+                  <strong>In progress</strong> adding payment gateway that allows user<br>
+                  to make payment via online
+              </p>
+              <span  >Take to project</span>
+          </div>
+      </div>
+      <div id="IMDB" class="prj-disp">
+  
+          <div class="prj-description">
+              <h2>letterboxD</h2>
+              <p>
+                  Bakeology is a cake-baking website build using django.
+                  <br>
+                  This takes order and passes the order via email using Formspree.
+                  <br>
+                  (Formspree is a thirdparty mail sender)  
+                  <br>
+                  This also allows clients to post comments that will be vrified
+                  <br>
+                  by admin and will be added after verification.
+                  <br>
+                  <strong>In progress</strong> adding payment gateway that allows user<br>
+                  to make payment via online
+              </p>
+              <span  >Take to project</span>
+          </div>
+      </div>
+      <div id="avengersstore"class="prj-disp">
+          <div class="prj-description">
+              <h2>Avengers Store</h2>
+              <p>
+                  Bakeology is a cake-baking website build using django.
+                  <br>
+                  This takes order and passes the order via email using Formspree.
+                  <br>
+                  (Formspree is a thirdparty mail sender)  
+                  <br>
+                  This also allows clients to post comments that will be vrified
+                  <br>
+                  by admin and will be added after verification.
+                  <br>
+                  <strong>In progress</strong> adding payment gateway that allows user<br>
+                  to make payment via online
+              </p>
+              <span  >Take to project</span>
+          </div>
+      </div>
+      
+      <div class="projectContainer">  
+          <p  id="project" class="projectcontainer__text">
+              I only know what I've implemented practically. Nothing more-nothing less. But i can feel them, sense them, feel their flow
+              so i can learn anything related to Web Technologies.
+              <br><br>
+              Nothing can beat the feel of succeeding by implementing our knowledge as code That were I fell for this.
+              <br><br>
+              Ranked my projects in order of my path as a full-stack developer from toddler to a amatuer.   
+          </p>
+          <div class="swiper mySwiper">
+              <div id="projectcardbox" class="swiper-wrapper">
+                  <div class="swiper-slide" data-aos="zoom-in">
+                      <div class="flip-card effect-on-hover" style="height: 650px;width: 400px;">
+                          <div class="front">
+                              <div class="projectcards bakeology"></div>
+                          </div>
+                          <div class="back">
+                              <div class="projectcards content" >
+                                  <h3 >Bakeology</h3>
+                                  <p>Developed a cake ordering and reviewing and providing feedback  web app on Django 3.2.6.                        
+                                  </p>
+                                  <a href="#bakeology" class="proj-disp">Click Here</a>
+                              </div>
+                          </div>
+                      </div></div>
+                      <div class="swiper-slide" data-aos="zoom-in">
+              <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                  <div class="front">
+                      <div class="projectcards scribd"></div>
+                  </div>
+                  <div class="back">
+                      <div class="projectcards content">
+                          <h3>Scribd</h3>
+                          <p>Created a books and audiobook library, built on React 5.14                        
+                          </p>
+                          <a href="#scribd" class="proj-disp">Click Here</a>
+                      </div>
+                  </div>
+              </div></div>
+              <div class="swiper-slide" data-aos="zoom-in">
+                  <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                      <div class="front">
+                          <div class="projectcards letterboxd"></div>
+                      </div>
+                      <div class="back">
+                          <div class="projectcards content">
+                              <h3 >IMDB</h3>
+                              <p>Co-authored with colleague in a movie info site using react and Django 3.2.6 and DRF.                        
+                              </p>
+                              <a href="#IMDB" class="proj-disp">Click Here</a>
+                          </div>
+                      </div>
+                  </div></div>
+                  <div class="swiper-slide" data-aos="zoom-in">
+                      <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                          <div class="front">
+                              <div class="projectcards avengers"></div>
+                          </div>
+                          <div class="back">
+                              <div class="projectcards content">
+                                  <h3 >A-Store</h3>
+                                  <p>Built on Django as backend and frontend third-party template.
+                                      Can take orders from customers and displays their reviews.                        
+                                  </p>
+                                  <a href="#avengersstore" class="proj-disp">Click Here</a>
+                              </div>
+                          </div>
+                      </div></div>
+                      <div class="swiper-slide" data-aos="zoom-in">
+                          <div class="flip-card effect-on-hover" style="height: 750px;width: 400px;">
+                              <div class="front">
+                                  <div class="projectcards reddit"></div>
+                              </div>
+                              <div class="back">
+                                  <div class="projectcards content">
+                                      <h3 >Q and A blog</h3>
+                                      <p> Created a  question and answer web-app designed using Django 3.2.6 .                        
+                                      </p>
+                                      <a href="#" class="proj-disp">Click Here</a>
+                                  </div>
+                              </div>
+                          </div></div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div></div>
+    <div class="title">CONT<span>ACT</span></div>
+    
+    <div class="contactwelcome" data-aos="zoom-in">
+      <a href="">
+        <p  id="contact" class="welcome">GOT IDEAS<br>
+        LET'S INTERACT</p>
+      </a>
+      <div class="contactform">
+        <form
+  action="https://formspree.io/f/mnqlrkeb"
+  method="POST"
+>
+    <input type="name" name="name" placeholder="Name">
+    <input type="email" name="_replyto" placeholder="Email">
+    <input type="text" name="text" placeholder="mobile">
+    <textarea name="message" id="" placeholder="message" cols="30" rows="10"></textarea>
+    <input type="submit" value="submit">  
+</form>
+      </div>
+    </div>
+            <div class="contactbox">
+              <div class="contactcontainer" data-aos="zoom-in">
+                <div class="column  contactHide">
+                  <h3 class="headingcon">Work Locations</h3>
+                  <ul>
+                    <li><i class="fas fa-map-marker-alt" ></i> Banglore</li>
+                    <li><i class="fas fa-map-marker-alt" ></i> Coimbatore</li>
+                    <li><i class="fas fa-map-marker-alt" ></i> Mumbai</li>
+                    <li><i class="fas fa-map-marker-alt" ></i> Kochi</li>
+                    <li><i class="fas fa-map-marker-alt" ></i> Hyderabad</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <ul>
+                    <h3 class="headingcon">Quick Links</h3>
+                    <li><i class="fas fa-arrow-right" ></i> Profile</li>
+                    <li><i class="fas fa-arrow-right" ></i> Skills</li>
+                    <li><i class="fas fa-arrow-right" ></i> Projects</li>
+                    <li><i class="fas fa-arrow-right" ></i> Experience</li>
+                    <li><i class="fas fa-arrow-right" ></i> Contact</li>
+                  </ul>
+                </div>
+                <div class="column contactHide">
+                  <ul>
+                    <h3 class="headingcon">Contact</h3>
+                    <li><i class="fas fa-phone" ></i> +91 8056639798</li>
+                    <li><i class="fas fa-envelope" ></i> vickfreeindia@gmail.com</li>
+                    <li><i class="fab fa-linkedin" ></i> Vivekanandan S</li>
+                    <li><i class="fab fa-facebook-f" ></i> Vivek S Foreva</li>
+                    <li><i class="fas fa-map-marker-alt" ></i> Coimbatore,641 301</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <ul>
+                    <h3 class="headingcon">Projects</h3>
+                    <li><i class="fas fa-arrow-right" ></i> Bakeology</li>
+                    <li><i class="fas fa-arrow-right" ></i> Reddit</li>
+                    <li><i class="fas fa-arrow-right" ></i> LoginSlider</li>
+                    <li><i class="fas fa-arrow-right" ></i> letterboxD</li>
+                    <li><i class="fas fa-arrow-right" ></i> AvengerStore</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+            <script>
+          </script>
+<script  src="JS/script.js"></script>
+<script  src="js-particles/particles.min.js"></script>
+<script  src="js-particles/custom.js"></script>
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    delay:200,
+    duration:1200
+  });
+</script>
+
 </body>
 </html>

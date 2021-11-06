@@ -114,12 +114,6 @@ body{
     *::-webkit-scrollbar{
         display: none;
     }
-    /* html::-webkit-scrollbar-track{
-        background-color: black;
-    }
-    html::-webkit-scrollbar-thumb{
-        background: var(--var-theme);
-    } */
 
 .list_items{
     position: fixed;
@@ -222,7 +216,6 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
     gap:1.5rem
-
 }
 .column ul li{
     font-family:'Fahkwang', sans-serif;
@@ -250,7 +243,6 @@ i{
     font-size: 28px;
     color: white;
 }
-
 @media (max-width:695px){
     .text-med{
         font-size: 10px;
@@ -301,13 +293,16 @@ i{
     }
 }
 @media(max-width:1200px){
+    .contactHide{
+        display: none;
+    }
+}
+@media(max-width:1400px){
+    
     .dropbtn{
         display: block;
     }
     .navbar{
-        display: none;
-    }
-    .contactHide{
         display: none;
     }
 }
