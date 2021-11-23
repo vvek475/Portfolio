@@ -60,6 +60,7 @@
         width: 220px;
         height: 380px;
         margin-left: 20px ;
+        font-size: 12px;
     }
     .swiper{
         width: 70%;
@@ -133,15 +134,19 @@
     z-index: 5;
 }
 #closer{
+    text-decoration: none;
     z-index: 10;
     display: none;
     cursor: pointer;
     font-size: 30px;
     font-weight: medium;
-    color: white;
     position: fixed;
     top: 20px;
     right: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding :3px 15px
 }
 @media (max-width:576px){
     .prj-description p{

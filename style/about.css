@@ -45,6 +45,7 @@
     align-items: center;
 }
 .linkto{
+    color: white;
     font-family:  'Fahkwang', sans-serif;
     display: none;
     font-weight: bold;
