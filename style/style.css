@@ -13,6 +13,9 @@
 a:hover{
     text-decoration: none;
 }
+i{
+    cursor: pointer;
+}
 div{
     font-family: sans-serif;
 }
@@ -62,9 +65,7 @@ body{
     width:100%;
     position: fixed;
     z-index: 100;
-
 }
-
 #theme{   
     position: fixed;
     font-size: 30px;
